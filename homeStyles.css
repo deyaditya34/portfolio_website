@@ -57,6 +57,13 @@ body {
   width: 100%;
 }
 
+span {
+  font-family: 'Pacifico';
+  font-style: italic;
+  font-size: 50px;
+  color:#3f72af
+}
+
 .profile {
   display: flex;
   margin-top: 30px;
@@ -160,7 +167,7 @@ body {
   display: flex;
   justify-content: center;
   /* border: 2px solrgb(146, 172, 177)21); */
-  background-color: #b5c7da;
+  background-color: #e4e4cf;
   border-radius: 20px;
 }
 
