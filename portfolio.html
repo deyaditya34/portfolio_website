@@ -5,20 +5,24 @@
     <title>Aditya Dey</title>
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="portfolioStyles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&family=Borel&family=DM+Sans:wght@300;400;700&family=Pacifico&family=Roboto:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <div class="container">
       <section class="nav-bar-container">
         <div class="heading-container"><a href="home.html">Home</a></div>
         <div class="heading-container">
-          <a href="liveProjects.html">Live Projects</a>
-        </div>
-        <div class="heading-container">
           <a href="portfolio.html">Portfolio Projects</a>
         </div>
-        <div class="heading-container"><a href="certifications.html">Certifications</a></div>
-        <div class="heading-container"><a href="">Resume</a></div>
-        <div class="heading-container"><a href="myStory.html">My Story</a></div>
+        <div class="heading-container">
+          <a href="certifications.html">Certifications</a>
+        </div>
+        <div class="heading-container">
+          <a href="Resume.pdf" target="_blank">Resume</a>
+        </div>
+        <div class="heading-container"><a href="about.html">About</a></div>
       </section>
     </div>
 
@@ -30,28 +34,52 @@
         <div class="individual-details-container">
           <div class="project-heading">Expense Tracker</div>
           <div class="project-tech-stack">
-            <div class="project-tech-stack-heading">Technologies used -</div>
-            <div class="tech">HTML</div>
-            <div class="tech">CSS</div>
-            <div class="tech">Javascript</div>
             <div class="tech">Express</div>
+            <div class="tech">MongoDB</div>
+            <div class="tech">Javascript</div>
+            <div class="tech">Http-Error</div>
             <div class="tech">JWT</div>
             <div class="tech">Crypto</div>
+            <div class="tech">FS</div>
+            <div class="tech">HTML</div>
+            <div class="tech">CSS</div>
           </div>
           <div class="project-details-container">
+            <div class="project-features-heading">Features :-</div>
             <div class="project-details">
-              Users can create their own accounts
+              <ul>
+                <li>
+                  Users can create their own categories, record their expenses
+                  and incomes, and analyze their financial data.
+                </li>
+                <li>
+                  The application uses JSON Web Token (JWT) authentication to
+                  ensure secure user sessions.
+                </li>
+                <li>
+                  Utilizes MongoDB, a NoSQL database, for efficient data storage
+                  and management.
+                </li>
+              </ul>
             </div>
-            <div class="project-details">Users can do this.</div>
-            <div class="project-details">Users can also do this.</div>
           </div>
-          <div class="project-link">
-            <a href="https://www.adityadey.com" target="_blank"
-              >Look at the Code ></a
-            >
+          <div class="project-link-container">
+            <div class="project-link">
+              <a href="https://www.et.adityadey.com" target="_blank"
+                >Explore Live ></a
+              >
+            </div>
+            <div class="project-link">
+              <a
+                href="https://github.com/deyaditya34/Finance-Tracker-FullStack-Nodejs"
+                target="_blank"
+                >Check the Code ></a
+              >
+            </div>
           </div>
         </div>
       </div>
+
       <div class="project-container">
         <div class="project-image">
           <img src="music-player-logo.png" />
@@ -59,24 +87,54 @@
         <div class="individual-details-container">
           <div class="project-heading">Music Player</div>
           <div class="project-tech-stack">
-            <div class="project-tech-stack-heading">Technologies used -</div>
+            <div class="tech">Express</div>
+            <div class="tech">MongoDB</div>
+            <div class="tech">Javascript</div>
+            <div class="tech">JWT</div>
+            <div class="tech">Multer</div>
+            <div class="tech">Crypto</div>
+            <div class="tech">Http-Error</div>
+            <div class="tech">FS</div>
             <div class="tech">HTML</div>
             <div class="tech">CSS</div>
-            <div class="tech">Javascript</div>
-            <div class="tech">Express</div>
-            <div class="tech">JWT</div>
-            <div class="tech">Crypto</div>
           </div>
-        </div>
-        <div class="project-details-container">
-          <div class="project-details">Users can create their own accounts</div>
-          <div class="project-details">Users can do this.</div>
-          <div class="project-details">Users can also do this.</div>
-        </div>
-        <div class="project-link">
-          <a href="https://www.player.adityadey.com" target="_blank"
-            >Look at the Code ></a
-          >
+          <div class="project-details-container">
+            <div class="project-features-heading">Features :-</div>
+            <div class="project-details">
+              <ul>
+                <li>Multer is used internally for users to upload songs.</li>
+                <li>yt-dlp is implemented to download files from links.</li>
+                <li>
+                  Users can search for the songs using keywords including song
+                  name, artist or genre.
+                </li>
+                <li>
+                  Playlist is automatically created based on artist name, genre
+                  name or recently added songs.
+                </li>
+                <li>
+                  Mongodb is used for storing all the songs, artists, genres
+                  related data's.
+                </li>
+                <li>
+                  All the routes are secured using JWT token as the
+                  authentication middleware.
+                </li>
+                <li>
+                  Songs are served through the static server from express.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project-link-container">
+            <div class="project-link">
+              <a
+                href="https://github.com/deyaditya34/music_player_fullstack"
+                target="_blank"
+                >Check the Code ></a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(243, 235, 221);
+  color: #112d4e;
+  font-family: 'Roboto';
+  overflow-y: scroll;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.heading-container {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: 'roboto';
+
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.heading-container a {
+  text-decoration: none;
+  color: #112d4e;
+  font-size: 20px;
+  font-weight: bold;
+
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+}
+
+.heading-container::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #3f72af;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.heading-container:hover {
+  transform: translateY(-2px);
+}
+
+.heading-container:hover a {
+  color: #3f72af;
+}
+
+.heading-container:hover::after {
+  width: 100%;
+}
+
+.projects-container {
+  border-radius: 30px;
+  margin: 70px 200px 70px 200px;
+}
+
+.project-container {
+  display: flex;
+  margin: 30px 20px 30px 20px;
+  border-radius: 10px;
+  background-color: #e4e4cf;
+}
+
+.individual-details-container {
+  width: 100%;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 0px 5px 0px;
+  padding-left: 10px;
+  padding-right: 195px;
+  border-radius: 10px;
+  color: #112d4e;
+}
+
+.project-image {
+  background-color: #e4e4cf;
+  height: 300px;
+  width: 400px;
+  border: 3px solid #112d4e;
+  margin: 10px 10px 10px 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+img {
+  object-fit: fill;
+  height: 300px;
+  width: 400px;
+}
+
+.project-heading {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.project-features-heading {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: 'roboto';
+  letter-spacing: 0.1rem;
+  font-size: 23px;
+}
+
+.project-link-container {
+  margin-top: 45px;
+  margin-bottom: 2px;
+}
+
+.project-link {
+  text-align: center;
+  background-color: #345c87;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 600px;
+  box-shadow: 2px 2px 8px #003554;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-link:hover {
+  background-color: #112d4e;
+  transform: translateY(-5px);
+}
+
+.project-link a {
+  text-decoration: none;
+  color: #d5e8f3;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.project-link a:hover {
+  color: #d5e8f3;
+}
