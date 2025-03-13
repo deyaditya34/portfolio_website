@@ -166,15 +166,14 @@ span {
   width: 400px;
   display: flex;
   justify-content: center;
-  /* border: 2px solrgb(146, 172, 177)21); */
-  background-color: #e4e4cf;
-  border-radius: 20px;
 }
 
 .profile-image img {
-  border-radius: 15px;
+  height: 400px;
+  width: 400px;
+  background-color: #e4e4cf;
   object-fit:contain;
-  box-sizing: border-box;
+  border-radius: 50%;
 }
 
 .tech-stack-container-heading {
