@@ -144,11 +144,12 @@ ul li {
 
 .project-link {
   text-align: center;
+  width: 150px;
   background-color: #345c87;
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 10px;
-  margin-right: 640px;
+  /* margin-right: 640px; */
   box-shadow: 2px 2px 8px #003554;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
